@@ -1,0 +1,11 @@
+<p>
+    <mat-toolbar>
+      <span>My Application</span>
+      <span>
+        <a mat-stroked-button [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
+        <a mat-stroked-button [routerLink]="['/profile']" routerLinkActive="router-link-active">Profile</a>
+      </span>
+    </mat-toolbar>
+</p>
+
+<router-outlet></router-outlet>
